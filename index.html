@@ -39,6 +39,31 @@
     - Have you conducted a code review and left a GitHub Issue on your team member's repo?
 
   -->
+  <div class="header">
+  <h2>Just List It</h2>
+</div>
+
+ 
+
+   
+   <form id="form"
+        class="row">
+        <label for="input-box"></label>
+        <input type="text" 
+               id="input-box"
+               placeholder="Add to-do item">
+        <button onclick="addTask()">Add</button>
+    </form>
+      <ul id="list-container">
+      </ul>
+        <div class="empty-state">
+         <p>You have no List </p> 
+         </div>
+        <div class="function-buttons">
+          <button onclick="clearAll()">Clear All</button>
+          <button onclick="clearCompleted()">cleared</button>
+        </div>
+
 
   <main>
     <div id="app"></div>
